@@ -2,11 +2,11 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    background-color: #24252A;
 }
 
 .logo{
     color: aliceblue;
+    cursor: pointer;
 }
 
 li, a, button{
@@ -20,7 +20,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 5%;
+    background-color: #24252A;
 }
 
 .navbar{
@@ -32,10 +33,23 @@ header{
     padding: 0px 20px;
 }
 
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover{
+    color: #0088a9;
+}
+
 button{
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
 }
