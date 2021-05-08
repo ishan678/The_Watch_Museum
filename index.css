@@ -154,12 +154,52 @@ button:hover{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 } 
 
 img{
     height: 300px;
 }
 
+.legacy{
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    background-image: linear-gradient(to right, rgba(0, 136, 169, 1), white);
+    line-height: 500px;
+    
+}
+
+#legacy1{
+    width: 40%;
+    font-size: 55px;
+    padding:  0px 0px 0px 72px;
+    align-items: center;
+}
+
+#legacy2{
+    width: 60%;
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 72px;
+}
+
+#legacy1 p{
+    line-height: 1.0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#legacy2 p{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.showroom-pic1 {
+    display: flex;   
+    height: 500px;
+    align-items: center;
+}
 
 
