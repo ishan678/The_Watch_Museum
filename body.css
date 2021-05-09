@@ -138,16 +138,16 @@ img{
 .our-stores{
     font-size: 25px;
     padding-left: 50px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .address{
     display: flex;
     justify-content: space-evenly;
     width: auto;
-    height: 250px;
-    line-height: 200px;
+    height: 300px;
+    /* align-items: center; */
 }
 
 .add1, .add2, .add3{
@@ -174,7 +174,8 @@ img{
 }
 
 .add1, .add2, .add3 p{
-    padding-top: 42px;
+    padding-top: 52px; 
+    /* padding-bottom: 42px;    */
 }
 
 .add-button{
@@ -184,6 +185,7 @@ img{
     border: solid;
     border-color: rgba(0, 136, 169, 1);
     cursor: pointer;
+    transition: all 1s ease 0s;
 }
 
 .add-button:hover{
