@@ -193,6 +193,7 @@ img{
     height: 500px;
     position: relative; 
     line-height: 500px; 
+    margin-bottom: 15px;
 
 }
 
@@ -222,6 +223,21 @@ img{
     font-size: 30px;
 }
 
+.address{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+    
+}
+
+.add1, .add2, .add3{
+    border: 1px solid;
+    width: 33.3%;
+    border-color: white;
+    display: block;
+}
 
 
-
+    
