@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    font-family: 'Encode Sans',sans-serif;
 }
 
 .logo{
@@ -78,7 +79,7 @@ header{
     /* flex-wrap: wrap; */
 }
 
-button{
+.nav-button{
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
@@ -88,7 +89,7 @@ button{
     margin-left: 40px;
 }
 
-button:hover{
+.nav-button:hover{
     background-color: rgba(0, 136, 169, 0.8);
     
 }
@@ -171,7 +172,7 @@ img{
 
 #legacy2{
     width: 60%;
-    font-size: 20px;
+    font-size: 15px;
     text-align: justify;
     padding-right: 72px;
 }
@@ -223,21 +224,59 @@ img{
     font-size: 30px;
 }
 
+.our-stores{
+    font-size: 25px;
+    padding-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .address{
     display: flex;
     justify-content: space-evenly;
-    padding-left: 72px;
-    padding-right: 72px;
-}
-    
+    width: auto;
+    height: 250px;
+    line-height: 200px;
 }
 
 .add1, .add2, .add3{
     border: 1px solid;
     width: 33.3%;
-    border-color: white;
+    /* border-color: white; */
+    border: none;
     display: block;
+    line-height: 2;
+    text-align: center;
 }
 
-
+.add1{
+    background-color: #e7f2f5 ;
     
+}
+
+.add2{
+    background-color: #b9d9e3 ;
+}
+
+.add3{
+    background-color: #91c3d4;
+}
+
+.add1, .add2, .add3 p{
+    padding-top: 42px;
+}
+
+.add-button{
+    padding: 15px 25px ; 
+    margin-top: 20px;  
+    background-color: rgba(0, 136, 169, 1);
+    border: solid;
+    border-color: rgba(0, 136, 169, 1);
+    cursor: pointer;
+}
+
+.add-button:hover{
+    background-color: white;
+    border-color:rgba(0, 136, 169, 1) ;
+    color: rgba(0, 136, 169, 1);
+}
