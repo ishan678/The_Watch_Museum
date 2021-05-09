@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Encode Sans',sans-serif;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(230, 8%, 15%);
+    color: aliceblue;
+    height: 300px;
+    line-height: 2;
+    align-items: center;
+}
+
+.foot-head{
+    font-size: 20px;
+    color: rgba(0, 136, 169, 1);
+}
+
+.foot2 a{
+    font-size: 12px;
+}
+
+.foot1 a{
+    font-size: 12px;
+}
+
+.foot3 a{
+    font-size: 12px;
+}
+
+.foot4{
+    padding-bottom: 135px;
+}
+
+.foot1 a:hover{
+    color: brown;
+}
+
+.foot2 a:hover{
+    color: brown;
+}
+
+.foot3 a:hover{
+    color: brown;
+}
+
+.foot4-1{
+    font-size: 20px;
+}
